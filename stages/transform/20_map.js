@@ -28,7 +28,9 @@ function mapNaturtype(na) {
   na.replace(/\//g, "|")
     .split("|")
     .forEach(t => {
-      if (t !== "-" && t.length > 0) r.push("NN-NA-TI-" + t);
+      if (t === "-" || t.length <= 0) return;
+      t = t.replace("L4-C", "L4");
+      r.push("NN-NA-TI-" + t);
     });
   return new Set(r);
 }
