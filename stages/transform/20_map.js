@@ -20,7 +20,7 @@ src.features.forEach(feature => {
   addStatistics(props);
 });
 
-io.skrivDatafil("myr_4326.geojson", src);
+io.skrivDatafil("myr.4326.geojson", src);
 io.skrivDatafil("stats", statistics);
 
 function mapNaturtype(na) {
