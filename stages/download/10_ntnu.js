@@ -1,3 +1,3 @@
 const { http } = require("lastejobb");
 
-http.downloadBinary("http://folk.ntnu.no/bjornrep/myr.csv", "myr.csv");
+http.downloadBinary("https://myr.artsdatabanken.no/myr.csv", "myr.csv");
