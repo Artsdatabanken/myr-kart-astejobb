@@ -5,6 +5,8 @@
 - [Vegetasjonstyper i Norge (Eli Fremstad)](https://www.nina.no/archive/nina/PppBasePdf/temahefte/012.pdf)
 - Natur i Norge [Torvmarksform](https://artsdatabanken.no/Pages/235030/Torvmarksformer?Key=1455004666)
 
+## Lastejobb
+
 Kjører en sekvens med steg (`stages/`) i alfabetisk rekkefølge.
 
 ## Funksjoner
